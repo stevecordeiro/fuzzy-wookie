@@ -1,0 +1,47 @@
+/*CSS STYLESHEET FOR LLL/NOFLASH*/
+#master_container
+{
+	margin: 0 auto;
+	width: 1098px;
+	height: 472px;
+}
+
+section{
+	background-color:gray;
+	margin:0 auto;
+	width:800px;
+	height:600px;
+}
+
+#chrome_container
+{
+}
+
+#screen_container
+{
+	height: 355px;
+	width: 479px;
+	background-color: #FF0631;
+	color: black;
+	position: relative;
+	left: 298px;
+}
+
+#chrome_container
+{
+}
+
+#subtitle_container
+{
+}
+
+#coach_window
+{
+}
+
+#title
+{
+	border: 17px solid #1725BF;
+	height: 10px;
+	width: 500px;
+}

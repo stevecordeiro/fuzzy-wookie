@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	
+    <head>
+		<meta charset="utf-8" />
+		<title>HTML5 LLL</title>
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Lottery Learning Link allows retailers to train themselves, and get a certification which they need to operate Lottery business in their store.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="js/vendor/modernizr2_8_3.js"></script>
+		
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	
+    </head>
+	
+    <body>
+	
+		        <!--[if lt IE 7]>
+					<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+				<![endif]-->
+	
+	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+<!-- BEGIN -->
+	
+		<div id="master_container">
+		<header> Lottery Learning Link - no Flash!</header>
+		<button onclick="playPause()">Play/Pause</button> 	
+				
+				 		
+			
+				 <div id="screen_container"/>
+						
+						<video id="video1" width="620" height="470" autoplay>
+						  <source src="videos/video.mp4" type="video/mp4">
+						  <source src="videos/video.ogg" type="video/ogg">
+						  Your browser does not support HTML5 video.
+						</video>
+
+			 
+				</div>/*screen container*/
+			<div id="chrome_container">	</div>	 
+			
+			
+						<script> 
+						var myVideo = document.getElementById("video1"); 
+
+						function playPause() { 
+							if (myVideo.paused) 
+								myVideo.play(); 
+							else 
+								myVideo.pause(); 
+						} 
+						</script>
+			
+		</div>/*master_container*/
+    </body>
+    </html>
