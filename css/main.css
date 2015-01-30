@@ -30,16 +30,13 @@ section{
 	z-index:99;
 }
 
-
-
-
 #subtitle_container{
-	position:absolute;
+	position:relative;
 	z-index:100;
 	height: 40px;
 	width:900px;
 	color:white;
-	top:700px;
+	top:-200px;
 	left:20px;
 }
 
@@ -65,4 +62,55 @@ section{
 	left:440px;
 }
 
+/*Classes*/
 
+.interactionLayer {
+	position:relative;
+	top:-330px;
+	left:190px;
+	width:580px;
+	height:420px;
+	z-index:101;
+	opacity: 0.4;
+}
+
+.grid1 {
+	height:210px;
+	width:290px;
+	background-color:red;
+	z-index:105;
+	position:relative;
+	overflow:hidden;
+}
+
+.grid2 {
+	height:210px;
+	width:290px;
+	top:-210px;
+	left:290px;
+	background-color:purple;
+	z-index:105;
+	position:relative;
+	overflow:hidden;
+}
+
+.grid3 {
+	height:210px;
+	width:290px;
+	top:-210px;
+	background-color:blue;
+	z-index:105;
+	position:relative;
+	overflow:hidden;
+}
+
+.grid4 {
+	height:210px;
+	width:290px;
+	top:-420px;
+	left:290px;
+	background-color:orange;
+	z-index:105;
+	position:relative;
+	overflow:hidden;
+}
