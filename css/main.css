@@ -1,6 +1,6 @@
 /*CSS STYLESHEET FOR LLL/NOFLASH*/
-#master_container
-{
+#master_container{
+	font-family:'Open Sans', sans-serif;
 	margin: 0 auto;
 	width: 1400px;
 	height: 1080px;
@@ -13,8 +13,7 @@ section{
 	height:600px;
 }
 
-#chrome_container
-{
+#chrome_container{
 
 	height:768px;
 	width: 1024px;
@@ -24,28 +23,46 @@ section{
 	background: url('../images/chrome.png') no-repeat; 
 }
 
-#screen_container
-{
+#screen_container{
 	position:relative;
-	top:80px;
-	left:180px;
+	top:130px;
+	left:170px;
 	z-index:99;
 }
 
 
 
 
-#subtitle_container
-{
+#subtitle_container{
+	position:absolute;
+	z-index:100;
+	height: 40px;
+	width:900px;
+	color:white;
+	top:700px;
+	left:20px;
 }
 
-#coach_window
-{
+#coach_window{
+
 }
 
-#title
-{
-	border: 17px solid #1725BF;
+#title{
+	z-index:100;
+	position:absolute;
+	top:30px;
+	left:30px;
+	font-size:28px;
 	height: 10px;
 	width: 500px;
+	color:black;
 }
+
+#pause{
+	z-index:100;
+	position:absolute;
+	top:560px;
+	left:440px;
+}
+
+

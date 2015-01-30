@@ -15,6 +15,7 @@
 
         <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
         <link rel="stylesheet" href="css/main.css" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr2_8_3.js"></script>
 		
 		<!--[if IE]>
@@ -34,23 +35,31 @@
 
 <!-- BEGIN -->
 	
-		<div id="master_container">
-		<header> Lottery Learning Link - no Flash!</header>
-		<button onclick="playPause()">Play/Pause</button> 	
+<div id="master_container">
+
+		
 				
 				 		
 			
-				 <div id="screen_container"/>
-						
-						<video id="video1" width="620" height="470" autoplay>
-						  <source src="videos/video.mp4" type="video/mp4">
-						  <source src="videos/video.ogg" type="video/ogg">
-						  Your browser does not support HTML5 video.
-						</video>
+<div id="screen_container"/>						
+	<video id="video1" width="620" height="470" autoplay>
+		<source src="videos/video.mp4" type="video/mp4">
+		<source src="videos/video.ogg" type="video/ogg">
+			Your browser does not support HTML5 video.
+	</video>
+</div><!--Screen container-->
 
-			 
-				</div>/*screen container*/
-			<div id="chrome_container">	</div>	 
+
+<div id="chrome_container">		 
+	<button id="pause" onclick="playPause()">Play/Pause</button> 				
+<div id="title">LOTTERY LEARNING LINK</div>			
+</div>		<!--chrome container-->	
+
+<div id="subtitle_container">
+These are the subtitles, which will use the time nodes in the XML to populate and update.
+I plan on using the PHASER.IO framework.
+</div>
+		
 			
 			
 						<script> 
@@ -64,6 +73,6 @@
 						} 
 						</script>
 			
-		</div>/*master_container*/
+		</div><!--master_container-->
     </body>
     </html>
