@@ -1,9 +1,9 @@
-var game = new Phaser.Game(800, 600, Phaser.AUTO, 'interactionLayer',  { preload: preload, create: create, render: render });
+var game = new Phaser.Game(200, 20, Phaser.AUTO, 'grid2',  { preload: preload, create: create, render: render });
 
 function preload() {
 
    // game.load.image('ball', 'assets/sprites/pangball.png');
-alert("launched Phaser");
+alert("launched Phaser API");
 }
 
 var counter = 0;
@@ -14,7 +14,7 @@ function create() {
 	
    // game.stage.backgroundColor = '#6688ee';
 
-    text = game.add.text(game.world.centerX, game.world.centerY, 'Counter: 0', { font: "64px Arial", fill: "#FF0000", align: "center" });
+    text = game.add.text(game.world.centerX, game.world.centerY, 'Counter: 0', { font: "14px Arial", fill: "#FF0000", align: "left" });
     text.anchor.setTo(0.5, 0.5);
 
     //  Here we'll create a basic looped event.
@@ -38,7 +38,7 @@ function updateCounter() {
 
 function render() {
 
-    game.debug.text("Time until event: " + game.time.events.duration.toFixed(0), 32, 32);
-    game.debug.text("Next tick: " + game.time.events.next.toFixed(0), 32, 64);
+    // game.debug.text("Time until event: " + game.time.events.duration.toFixed(0), 32, 32);
+    // game.debug.text("Next tick: " + game.time.events.next.toFixed(0), 32, 64);
 
 }
