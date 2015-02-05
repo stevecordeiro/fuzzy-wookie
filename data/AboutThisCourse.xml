@@ -1,0 +1,59 @@
+<Lesson>
+  <Section name="lesson" video="AboutThisCourse.mp4" title="ABOUT THIS COURSE" coach="0">
+    <CuePoint time="-1">
+      <ClearScreen/>
+      <ClearHighlight/>
+      <ClearOverlay/>
+      <Coach name="0"/>
+      <Video mask="full" x="256" y="70" width="520" height="380"/>
+      <Caption><![CDATA[]]></Caption>
+    </CuePoint> 
+
+    <CuePoint time="0.23">
+      <ClearScreen/>
+      <ClearHighlight/>
+      <ClearOverlay/>
+      <Coach name="0"/>
+      <Caption><![CDATA[This training series will provide you with the opportunity to explore the terminal and practice making tickets just like you would in your store. ]]></Caption>
+	  <Overlay x="530" y="90"><Copy width="100"><![CDATA[Explore the Terminal, Practice Making Tickets]]></Copy></Overlay>
+    </CuePoint> 
+
+    <CuePoint time="9.81">
+      <ClearScreen/>
+      <ClearHighlight/>
+      <ClearOverlay/>
+      <Coach name="0"/>
+      <Caption><![CDATA[There are four courses in this training series.]]></Caption>
+	  <Overlay x="520" y="90"><Copy width="110"><![CDATA[1. Your New On-Line Lottery Terminal<br><br>2. On-Line Wagering<br><br>3.  On-Line and Instant Functions<br><br>4.  Special Functions and Troubleshooting]]></Copy></Overlay>
+    </CuePoint> 
+
+    <CuePoint time="13.58">
+      <ClearScreen/>
+      <ClearHighlight/>
+      <ClearOverlay/>
+      <Coach name="0"/>
+	  <Overlay x="160" y="90" shape="none"><Image name="nj_certificate" width="200" height="200" /></Overlay>
+      <Caption><![CDATA[Once you have successfully finished all four courses, you can print a certificate.]]></Caption>
+    </CuePoint> 
+
+    <CuePoint time="19.386">
+      <ClearScreen/>
+      <ClearHighlight/>
+      <ClearOverlay/>
+      <Coach name="0"/>
+	  <Video mask="full" x="256" y="70" width="520" height="380"/>
+      <Caption><![CDATA[Before you begin, make sure to close all other programs on your computer.]]></Caption>
+	   <Overlay x="520" y="90"><Copy width="110"><![CDATA[Close All Other Programs!]]></Copy></Overlay>
+    </CuePoint> 
+
+    <CuePoint time="24.49">
+      <ClearScreen/>
+      <ClearHighlight/>
+      <ClearOverlay/>
+      <Coach name="0"/>
+      <Caption><![CDATA[Great! Let's get started.]]></Caption>
+	  <Overlay x="520" y="90"><Copy width="110"><![CDATA[Let's Get Started!]]></Copy></Overlay>
+    </CuePoint> 
+
+  </Section>
+</Lesson>
