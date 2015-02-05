@@ -89,9 +89,9 @@ section{
 	top:-210px;
 	left:290px;
 	background-color:purple;
-	z-index:105;
+	z-index:107;
 	position:relative;
-	overflow:hidden;
+	
 }
 
 .grid3 {

@@ -65,7 +65,7 @@
 <div id="chrome_container">		 
 	<button id="pause" onclick="playPause()">Play/Pause</button> 				
 <div id="title">LOTTERY LEARNING LINK</div>			                                       <!--  FUTURE: Make this point to an external XML ref-->
-</div>		<!--chrome container-->	
+</div>		<!--chrome container -->	
 
 <div id="subtitle_container">																				<!--  FUTURE: Make this point to an external XML ref-->
 These are the subtitles, which will use the time nodes in the XML to populate and update.
@@ -75,14 +75,17 @@ I plan on using the PHASER.IO framework.
 			
 			
 						<script> 
-						var myVideo = document.getElementById("video1"); 
+						var video = document.getElementById("video1"); 
 
 						function playPause() { 
-							if (myVideo.paused) 
-								myVideo.play(); 
+							if (video.paused) 
+								video.play(); 
 							else 
-								myVideo.pause(); 
+								video.pause(); 
 						} 
+						
+						
+						
 						</script>
 			
 		</div><!--master_container-->
