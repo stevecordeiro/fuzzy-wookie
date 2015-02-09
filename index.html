@@ -17,8 +17,8 @@
         <link rel="stylesheet" href="css/main.css" />
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr2_8_3.js"></script>
-		<script src="js/phaser.js"></script>
-		<script src="js/timer.js"></script>
+		<script src="js/xml_loader.js"></script>
+
 
 		<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -39,12 +39,12 @@
 	
 <div id="master_container">
 
-		
+	
 				
 				 		
 			
 <div id="screen_container"/>						
-	<video id="video1" width="620" height="470" autoplay>
+	<video id="video1" width="448" height="252" autoplay>
 		<source src="videos/video.mp4" type="video/mp4">                                  <!--  FUTURE: Make this point to an external XML ref-->
 		<source src="videos/video.ogg" type="video/ogg">                                    <!--  FUTURE: Make this point to an external XML ref-->
 			Your browser does not support HTML5 video.
@@ -53,10 +53,7 @@
 
 <div class="interactionLayer">
 
-<div class="grid1">Grid 1</div>
-<div class="grid2">Grid 2</div>
-<div class="grid3">Grid 3</div>
-<div class="grid4">Grid 4</div>
+
 
 </div><!--interactionLayer-->
 
@@ -64,12 +61,16 @@
 
 <div id="chrome_container">		 
 	<button id="pause" onclick="playPause()">Play/Pause</button> 				
-<div id="title">LOTTERY LEARNING LINK</div>			                                       <!--  FUTURE: Make this point to an external XML ref-->
+<div id="title">INTRODUCTION<BR>INTRODUCTION</div>			                                       <!--  FUTURE: Make this point to an external XML ref-->
 </div>		<!--chrome container -->	
 
 <div id="subtitle_container">																				<!--  FUTURE: Make this point to an external XML ref-->
-These are the subtitles, which will use the time nodes in the XML to populate and update.
-I plan on using the PHASER.IO framework.
+
+		<script>
+		xmlDoc=loadXMLDoc("data/AboutThisCourse.xml");
+		document.write(xmlDoc.getElementsByTagName("Caption")[1].childNodes[0].nodeValue + "<br>");
+		</script>	
+
 </div>
 		
 			
