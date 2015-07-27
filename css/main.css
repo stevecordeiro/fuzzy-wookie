@@ -20,7 +20,6 @@ section{
 	z-index:100;
 	position:absolute;
 	top:50px;
-	background: url('../images/chrome.png') no-repeat; 
 }
 
 #screen_container{
